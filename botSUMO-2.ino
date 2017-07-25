@@ -1,5 +1,5 @@
               
-                             //                   S      T      A       R      T
+// 	                          			T E S T  C A S E - 2
 
 #include <NewPing.h>
 
@@ -18,13 +18,6 @@
 #define IR4 5
 #define IR5 6
 #define IR6 7
-
-// 2 proximity sensor
-/*
-#define PS1             //proximity sensor
-#define PS2
-*/
-
 
 // 2 ULTRASONIC SENSORS
 
@@ -51,11 +44,7 @@ void setup()
       pinMode(IR4, INPUT);
       pinMode(IR5, INPUT);
       pinMode(IR6, INPUT);
-
-      /*
-       pinMode(PS1,INPUT);
-       pinMode(PS2,INPUT);
-       */
+  
 }
 
 void loop()
