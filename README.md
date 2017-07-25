@@ -1,15 +1,15 @@
-#Introduction
+# Introduction
   BotSumo (Robot-sumo), is a sport in which two robots attempt to push each other out of a
   circle (in a similar fashion to the sport of sumo). The engineering challenges are for the
   robot to find its opponent (usually accomplished with infrared or ultra-sonic sensors) and to
   push it out of the flat arena. A robot should also avoid leaving the arena, usually by means
   of a sensor that detects the edge.
 
-#Details
+# Details
   Team must build a completely autonomous robot. It has to push the opponent robot out of
   the arena. It must have some mechanism to find the opponent bot.
 
-#Bot Specifications
+# Bot Specifications
   The robot must be able to fit inside a box with dimensions of 250 mm X 250 mm X 250 mm
   (l x b x h) and weigh less than or equal to 3 kg.
   The machine must use only mechanical power converted from a source of electrical energy.
@@ -18,22 +18,22 @@
   engage in a duel. Not fulfilling this specification may lead to disqualification.
   The machine must be fully autonomous. i.e., no manual control is to be present.
 
-#Power Supply
+# Power Supply
   The participants should use an on-board power supply, i.e., the power source should be on
   the bot itself
   The voltage between any two points should be less than or equal to 24 V DC at all times
   during the run.
 
-#GamePlay(It may vary)
+# GamePlay(It may vary)
 
-  #Round 1
+  # Round 1
     The 2 fighting bots will be kept at the same distance from each other and from the edge,
     just before the round begins.
     One round will be of 3 minutes.
     There will be total of 3 rounds.
     To win the round the bot must push or throw the opponent out of the arena completely.
 
-  #Final Round
+  # Final Round
     The 4 bots will be placed at different ends of the arena not facing each other, just before the
     round begins.
     One round will be of 7 minutes.
@@ -41,7 +41,7 @@
     To win the round the bot must push or throw the opponent out of the arena completely.
 
 
-#Game Rules
+# Game Rules
   The machines you build will be first checked for size and safety.
   Only one team member is allowed to handle the bot. Other team members are not allowed
   to enter the arena.
@@ -60,7 +60,7 @@
   immediate disqualification of defaulters of any kind.
   Bot's code will be checked for hard coding before trail is allowed.
 
-#Arena
+# Arena
 
 ![Screenshot](file:///home/priyankit/Downloads/botSumoFinal.jpg)
 ![Screenshot](file:///home/priyankit/Downloads/BotSumo.jpg)
