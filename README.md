@@ -60,7 +60,3 @@
   immediate disqualification of defaulters of any kind.
   Bot's code will be checked for hard coding before trail is allowed.
 
-# Arena
-
-![Round-1](Bot-Sumo/Round-1.jpg)
-![Round-2](https://mail.google.com/mail/u/0/?ui=2&ik=064788fbe5&view=att&th=158e90faab6288c7&attid=0.3&disp=safe&realattid=f_iwjaphiw2&zw)
