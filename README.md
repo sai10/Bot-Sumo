@@ -62,7 +62,7 @@
 
 ## Arena
 
-## Round-1
+### Round-1
 <img src="https://github.com/sai10/Bot-Sumo/blob/master/Round-1.jpg" width="60%"></img> 
-## Final-Round
+### Final-Round
 <img src="https://github.com/sai10/Bot-Sumo/blob/master/Round-2.jpg" width="60%"></img> 
