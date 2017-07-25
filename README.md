@@ -60,4 +60,9 @@
   immediate disqualification of defaulters of any kind.
   Bot's code will be checked for hard coding before trail is allowed.
 
-<img src="https://github.com/sai10/Bot-Sumo/blob/master/Round-1.jpg" width="90%"></img> 
+# Arena
+
+# ROUND-1
+<img src="https://github.com/sai10/Bot-Sumo/blob/master/Round-1.jpg" height="50%"width="50%"></img> 
+# ROUND-1
+<img src="https://github.com/sai10/Bot-Sumo/blob/master/Round-2.jpg" height="50%"width="50%"></img> 
