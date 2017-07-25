@@ -27,18 +27,18 @@
 # GamePlay(It may vary)
 
   # Round 1
-    The 2 fighting bots will be kept at the same distance from each other and from the edge,
-    just before the round begins.
-    One round will be of 3 minutes.
-    There will be total of 3 rounds.
-    To win the round the bot must push or throw the opponent out of the arena completely.
+  The 2 fighting bots will be kept at the same distance from each other and from the edge,
+  just before the round begins.
+  One round will be of 3 minutes.
+  There will be total of 3 rounds.
+  To win the round the bot must push or throw the opponent out of the arena completely.
 
   # Final Round
-    The 4 bots will be placed at different ends of the arena not facing each other, just before the
-    round begins.
-    One round will be of 7 minutes.
-    There will be total of 3 rounds.
-    To win the round the bot must push or throw the opponent out of the arena completely.
+  The 4 bots will be placed at different ends of the arena not facing each other, just before the
+  round begins.
+  One round will be of 7 minutes.
+  There will be total of 3 rounds.
+  To win the round the bot must push or throw the opponent out of the arena completely.
 
 
 # Game Rules
