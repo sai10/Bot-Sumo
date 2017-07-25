@@ -62,8 +62,5 @@ Game Rules
 
 Arena
 
-Round-1
-file:///home/priyankit/Downloads/BotSumo.jpg
-
-Round-2
-file:///home/priyankit/Downloads/botSumoFinal.jpg
+![Screenshot](file:///home/priyankit/Downloads/botSumoFinal.jpg)
+![Screenshot](file:///home/priyankit/Downloads/BotSumo.jpg)
