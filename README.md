@@ -62,5 +62,5 @@
 
 # Arena
 
-![alt text](https://mail.google.com/mail/u/0/?ui=2&ik=064788fbe5&view=att&th=158e90faab6288c7&attid=0.2&disp=safe&realattid=f_iwjaphio1&zw)
-![alt text](https://mail.google.com/mail/u/0/?ui=2&ik=064788fbe5&view=att&th=158e90faab6288c7&attid=0.3&disp=safe&realattid=f_iwjaphiw2&zw)
+![Round-1](Bot-Sumo/Round-1.jpg)
+![Round-2](https://mail.google.com/mail/u/0/?ui=2&ik=064788fbe5&view=att&th=158e90faab6288c7&attid=0.3&disp=safe&realattid=f_iwjaphiw2&zw)
