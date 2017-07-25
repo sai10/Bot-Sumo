@@ -26,7 +26,7 @@
 
 # GamePlay(It may vary)
 
-  # Round 1
+   # Round 1
   The 2 fighting bots will be kept at the same distance from each other and from the edge,
   just before the round begins.
   One round will be of 3 minutes.
