@@ -1,6 +1,15 @@
 
 // 				T E S T  C A S E - 1 
 
+/*
+		IR1
+	IR2		IR3
+
+	IR4		IR5
+		IR6
+*/		
+
+
 //#include <NewPing.h>
 
 
@@ -50,30 +59,31 @@ void setup()
 
 
 // NOTE- MOTOR MOVEMENT IS BASED ON THE POSITION OF IR SENSORS
+// NOTE- REACTION OF MOTORS w.r.t SENSORS ARE BASED AS PER ARENA 
 
 void loop()
 {
-	
+	//		DEFENSIVE	
 	if( digitalRead(IR1)!=0 || digitalRead(IR2)!=0 || digitalRead(IR3)!=0 || digitalRead(IR4)!=0 || digitalRead(IR5)!=0 || digitalRead(IR6)!=0 )
 	{
 		  if(digitalRead(IR1)==1) 							  //   I R -  1
 		  {
 		    digitalWrite(left_motor_f,LOW);
-		    digitalWrite(left_motor_b,LOW);
+		    digitalWrite(left_motor_b,HIGH);
 		    digitalWrite(right_motor_f,LOW);
 		    digitalWrite(right_motor_b,HIGH);
 		   }
 		  
-		  if(digitalRead(IR2)==1)  							  //   I R  -  2
+		  if(digitalRead(IR6)==1)  							  //   I R  -  6
 		  {
 		   
-		    digitalWrite(left_motor_f,LOW);
-		    digitalWrite(left_motor_b,HIGH);
-		    digitalWrite(right_motor_f,LOW);
-		    digitalWrite(right_motor_b,HIGH);
+		    digitalWrite(left_motor_f,HIGH);
+		    digitalWrite(left_motor_b,LOW);
+		    digitalWrite(right_motor_f,HIGH);
+		    digitalWrite(right_motor_b,LOW);
 		  }
 		  
-		  if(digitalRead(IR3)==1)  							  //   I R  -  3
+		  if(digitalRead(IR2)==1)  							  //   I R  -  2
 		  {
 		    digitalWrite(left_motor_f,LOW);
 		    digitalWrite(left_motor_b,HIGH);
@@ -90,16 +100,16 @@ void loop()
 		  }
 		  
 		  
-		  if(digitalRead(IR5)==1) 							  //   I  R  - 5
+		  if(digitalRead(IR3)==1) 							  //   I  R  - 3
 		  {
-		    digitalWrite(left_motor_f,HIGH);
+		    digitalWrite(left_motor_f,LOW);
 		    digitalWrite(left_motor_b,LOW);
-		    digitalWrite(right_motor_f,HIGH);
-		    digitalWrite(right_motor_b,LOW);
+		    digitalWrite(right_motor_f,LOW);
+		    digitalWrite(right_motor_b,HIGH);
 		  }
 		  
 		  
-		  if(digitalRead(IR6)==1) 							  //  I R  - 6
+		  if(digitalRead(IR5)==1) 							  //   I R  - 5
 		  {
 		    digitalWrite(left_motor_f,LOW);
 		    digitalWrite(left_motor_b,LOW);
@@ -107,6 +117,7 @@ void loop()
 		    digitalWrite(right_motor_b,LOW);
 		}
 	}
+	//		OFFENSIVE
 	else if( (us1/US_ROUNDTRIP_CM)!=0 || (us2/US_ROUNDTRIP_CM)!=0 )
 	{
 		  unsigned int us1 = frontsonar.ping();
@@ -119,7 +130,7 @@ void loop()
 		      digitalWrite(right_motor_f,HIGH);
 		      digitalWrite(right_motor_b,LOW);  
 		    }
-		  else if(((us2/US_ROUNDTRIP_CM)!=0))  				  // Ultrasonic sensor 2(back)
+		  else if(((us2/US_ROUNDTRIP_CM)!=0))  					  // Ultrasonic sensor 2(back)
 		    {
 		      
 		      digitalWrite(left_motor_f,LOW);
@@ -130,7 +141,7 @@ void loop()
 	}
 	else
 	{
-			  digitalWrite(left_motor_f,LOW);
+		      digitalWrite(left_motor_f,LOW);
 		      digitalWrite(left_motor_b,LOW);
 		      digitalWrite(right_motor_f,LOW);
 		      digitalWrite(right_motor_b,LOW);
